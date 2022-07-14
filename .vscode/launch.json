@@ -1,0 +1,34 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração do idioma TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:/TOTVS/TOTVSRIOCENTER/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "gmnm",
+			"description": ""
+		},
+		{
+			"label": "gmnm",
+			"description": "<nil>"
+		},
+		{
+			"label": "u_gmnm",
+			"description": "<nil>"
+		},
+		{
+			"label": "U_AltCBar"
+		}
+	],
+	"lastProgramExecuted": "u_gmnm"
+}
